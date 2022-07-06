@@ -41,3 +41,16 @@ Boolean - False and True
     int() - Converts a string to a number
     type() - method returns class type of the argument(object) passed as parameter.
     isinstance() - function returns True if the specified object is of the specified type, otherwise False.
+
+#! Comparison Operators:
+        Equal to: ==
+        Not equal to: !=
+        Less than: <
+        Greater than: >
+        Less than or equal to: <=
+        Greater than or equal to: >=
+    not will negate the operator!
+#! Logical Operators:
+        and operator – returns True if both the operands (right side and left side) are True
+        or operator - returns True if either of the operand (right side or left side) is True
+        not operator - returns True if operand is False
