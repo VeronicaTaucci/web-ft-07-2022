@@ -1,4 +1,5 @@
 
+#! july 6th lectures notes
 #? Strings 
 
 "I am a string."
