@@ -1,0 +1,43 @@
+Memory heap -(address,value,label, datatype) The heap is a memory used by programming languages to store global variables.
+Execution context - is an abstract concept of an environment where the Javascript code is evaluated and executed.
+Stack 
+
+
+
+#! Basic Data Types:
+String - string is text created by putting quotes around text.
+Integer - 5
+Float - 5.6
+Boolean - False and True
+
+
+# Concatenating Strings - merging two strings into a single object which is done by using the “+” operator.
+# Escaping Characters
+        \b	backspace
+        \t	horizontal tab
+        \v	vertical tab
+        \n	newline
+
+#Python Operators
+        +	Addition
+        -	Subtraction
+        *	Multiplication
+        /	Division
+        //  division w/o decimal    
+        %   modulus/remainder    
+        **  exponentiation
+
+#! variables - like a label for something. Reserved words: https://docs.python.org/3/reference/lexical_analysis.html#keywords
+    variable = value
+    identifier = expression
+
+#! String Formatting : By argument, By index, By keyword
+    f-strings: string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values.
+        f'some string {variable}'
+
+#! Built in functions
+    print() - The print command causes output to appear on your terminal screen. 
+    input() - function waits for the user to type some input and press return. It then gets whatever was typed.
+    int() - Converts a string to a number
+    type() - method returns class type of the argument(object) passed as parameter.
+    isinstance() - function returns True if the specified object is of the specified type, otherwise False.

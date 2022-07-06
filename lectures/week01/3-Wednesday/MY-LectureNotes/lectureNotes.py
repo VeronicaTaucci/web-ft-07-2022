@@ -3,11 +3,8 @@
 #? Strings 
 
 "I am a string."
-
 'I am a string too.'
-
 'I\'m a string and I have to escape my single quote.'
-
 "I'm a string and I have a single quote."
 
 """
