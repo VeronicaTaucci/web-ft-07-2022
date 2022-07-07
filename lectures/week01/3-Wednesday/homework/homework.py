@@ -73,15 +73,15 @@
 
 #! 5. Print a Triangle
 
+#? solution
 # count = 1
 # down = 3
-
 # while count < 9:
 #     print((down * " ") + (count * '*'))
 #     down -= 1
 #     count += 2
 
-
+#? solution
 # triangle_height = int(input("Please input height of triangle: "))
 # num = 1
 # spaces = triangle_height - 1
@@ -90,6 +90,23 @@
 #     spaces -= 1
 #     num += 2
 
+#?solution
+# height = int(input('Enter a height >> '))
+# count = 0
+# stars = 1
+# base_width = height * 2 - 1
+# while count < height:
+#     star = '*' * stars
+#     count += 1  # count = count + 1
+#     stars += 2  # stars = stars + 2
+#     print(star.center(base_width))
+
+#? solution
+# height = int(input("What is the height? "))
+# i = 0
+# while i < height:
+#     print((height - i) * " " + (2 * (i + 1) - 1) * "*" + (height - i) * " ")
+#     i += 1
 
 #! 6. Multiplication Table. Print the multiplication table for numbers from 1 up to 10.
 # num1 = 1
