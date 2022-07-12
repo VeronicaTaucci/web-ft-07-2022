@@ -99,7 +99,19 @@ def letter_histogram(word):
 # {'To': 2,
 #  'be': 1
 #  }
+def word_summary(paragraph):
+    word_histogram = {}
+    lower_paragraph = paragraph.lower()
+    word_list = lower_paragraph.split(" ")
+    for word in word_list:
+        if word in word_histogram:
+            word_histogram[word] += 1
+        else:
+            word_histogram[word] = 1
+    return word_histogram
 
+
+word_summary('To be or not to be')
 
 
         
