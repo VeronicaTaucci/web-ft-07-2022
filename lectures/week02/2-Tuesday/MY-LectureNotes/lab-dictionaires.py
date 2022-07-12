@@ -17,6 +17,9 @@
 # Aquarius - The Thinker
 # Pisces - TheMystic
 
+from operator import le
+
+
 zodiac = {
     
 }
@@ -72,6 +75,17 @@ ramit = {
 # >>>letter_histogram('banana')
 # {'a': 3, 'b': 1, 'n': 2}
 
+def letter_histogram(word):
+    histogram = {}
+    for letter in word:
+        if letter in histogram:
+            histogram[letter] = histogram[letter] +1
+        else:
+            histogram[letter] = 1
+    print(histogram)
+
+
+# letter_histogram('banana')
 
 
 #? Word Summary
