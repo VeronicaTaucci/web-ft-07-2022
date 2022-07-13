@@ -1,6 +1,6 @@
 import corona
 
-coronaData = corona.data
+corona_data = corona.data
 
 total_recovered = 0
 most_recovered = 0
